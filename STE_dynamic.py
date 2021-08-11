@@ -9,7 +9,7 @@ def Print(value, scheme_str, attribute, stage_str):
     return value
 
 def PrintInMbit(value, scheme_str, attribute, stage_str):
-    result = value / 1024 / 1024
+    result = value / 1000 / 1000
     print("%s %s %s: %.3f Mbits" % (scheme_str, attribute, stage_str, result))
     return result
 
