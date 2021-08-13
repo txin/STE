@@ -8,7 +8,6 @@ DEFAULT_n = 8192 # total number of AVLH bins
 DEFAULT_t = 256 # total number of labels
 DEFAULT_N_lambda = 65600 # N for updated MM
 DEFAULT_n_lambda = 8199 # n for update MM
-DEFAULT_PAR_GATES = 2.5 # used as a constant to compute number of gates for oblivious sorting
 DEFAULT_growth_factor = 25 # upper-bound EMM for ORAM simulation
 
 def PrintParameters():
