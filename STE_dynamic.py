@@ -71,10 +71,9 @@ class BlackboxORAM:
 
 # How to compute the number of gates used for oblivious sorting?
 class ZAVLH:
-    def __init__(self, par_gates = DEFAULT_PAR_GATES, par_lambda = DEFAULT_par_lambda, 
+    def __init__(self, par_lambda = DEFAULT_par_lambda, 
                  l = DEFAULT_l, k = DEFAULT_k, N = DEFAULT_N, v = DEFAULT_v, n = DEFAULT_n,
                  t = DEFAULT_t, N_lambda = DEFAULT_N_lambda, n_lambda = DEFAULT_n_lambda):
-        self.par_gates = par_gates
         self.par_lambda = par_lambda
         self.l = l
         self.k = k
